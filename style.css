@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #003267;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +9,22 @@ body {
 }
 
 .weather-app {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
+css
+body, .weather-app {
+  color: #343a40; /* Change the text color to a darker gray */
+}
+
+
 h1 {
     margin-bottom: 20px;
+    color: #007bff;
 }
 
 p {
@@ -26,10 +33,12 @@ p {
 
 #weather {
     font-size: 18px;
+    color: #343a40;
 }
 
 #location-select {
     margin-bottom: 20px;
     padding: 5px;
     font-size: 16px;
+    color: #343a40;
 }
